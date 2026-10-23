@@ -1,0 +1,16 @@
+MissionCart source package
+
+Run npm ci, npm test, npm run typecheck and npm run build. Node 22+.
+
+Original cost workbook and PDF guide:
+  node docs/restore-documents.mjs
+
+This restores the exact original files in docs/, verifying their SHA-256 checksums. They are encoded in a text module because the repository browser's binary uploader failed. The app illustration is the same supplied image compressed as WebP and embedded in src/hero.ts. No private credentials or service dependencies are needed.
+
+Synthetic analytics:
+  npm run analytics:generate
+  npm run analytics:dry-run
+
+The full fixture is committed; generation is deterministic. Importing is a separate explicit action and is not required to run the demo. Do not reimport into an existing dashboard project without reconciling insert IDs and counts. The separate demonstration project has already received the 1,800 synthetic events once.
+
+Dashboard access requires Mixpanel sign-in. Public sharing has not issued a working public link. Metrics are fabricated demonstration data, not evidence of shopper behavior, agent quality or revenue.
