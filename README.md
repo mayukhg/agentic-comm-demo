@@ -90,6 +90,7 @@ Opening that link requires a signed-in Mixpanel account with access to the proje
 - https://shopify.dev/docs/agents
 - https://ap2-protocol.org/ap2/specification/
 - https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search
+- Full Agentic Commerce PM immersion report: [docs/agentic-commerce-pm-immersion.pdf](docs/agentic-commerce-pm-immersion.pdf)
 
 These informed the distinction between discovery, checkout and authorization. The prototype does not implement those integrations or claim protocol compliance.
 
