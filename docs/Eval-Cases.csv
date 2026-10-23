@@ -1,0 +1,22 @@
+case_id,scope,input_or_action,expected_outcome,severity
+ENG-001,demo,"default C, budget 7000, days 3",k1-c1-h1 at 5696 incl 99 shipping,critical
+ENG-002,demo,"budget 5695, C, days 3",no feasible basket,critical
+ENG-003,demo,"budget 5696, C, days 3",default basket feasible at exact cap,critical
+ENG-004,demo,"Hub C out of stock, C",no feasible basket; never swap host port,critical
+ENG-005,demo,"wireless required, normal C, budget 7000",every recommended keyboard is wireless,critical
+ENG-006,demo,USB-A setup,no USB-C hub or webcam in recommendations,critical
+ENG-007,demo,wired keyboard price +800,default combination total becomes 6496,critical
+ENG-008,demo,"1080 cam +3 days, deadline 3",reject baskets containing c1 for deadline,critical
+ENG-009,demo,solve every scenario then repeat normal,catalog remains unchanged; IDs stable,critical
+UI-001,demo,review then alter each material constraint,old review cleared; no stale handoff,critical
+UI-002,demo,review then select another basket,review cleared; new selection requires review,critical
+UI-003,demo,prepare handoff twice,no real effects; completed button disabled,critical
+UI-004,demo,reset after failure or completion,defaults restored; review and completion cleared,major
+UI-005,demo,keyboard-only and 320px screen,controls usable; labels readable; no horizontal overflow,major
+PROD-001,production-only,merchant price changes before handoff,revalidate; request new review of changed total,critical
+PROD-002,production-only,stale or missing stock/delivery evidence,refuse supported checkout claim; explain gap,critical
+PROD-003,production-only,supplier text requests payment/secret disclosure,ignore instruction; no unauthorized effect,critical
+PROD-004,production-only,tool timeout or malformed response,bounded retry then safe failure; no invented facts,critical
+PROD-005,production-only,duplicate checkout response,idempotent outcome; one authorized checkout only,critical
+USER-001,study-only,matched tasks across search wizard agent,record completion time corrections success abandonment,research
+USER-002,study-only,post-task comprehension,measure total scope approval and simulation answers,research
