@@ -79,6 +79,12 @@ Production work would include real inventory and catalog APIs, postcode-based de
 
 Interview target shoppers about a recent setup purchase, then compare the prototype with search and a bundle wizard. Measure complete compatible baskets within budget and deadline, time to a valid basket, corrections, abandonment and approval comprehension. Any real unintended-order rate must be zero. Assess unit economics before scaling; this prototype assumes no conversion or revenue uplift.
 
+## Analytics dashboard
+
+The synthetic evaluation and unit-economics dashboard for this demo lives in Mixpanel: https://mixpanel.com/s/4sAzfJ
+
+Opening that link requires a signed-in Mixpanel account with access to the project; it is not anonymously public. Board definitions and reconciliation notes are in [analytics/BOARD-SPEC.md](analytics/BOARD-SPEC.md). All dashboard figures are fabricated demonstration data, not real customer results.
+
 ## Research foundations
 
 - https://shopify.dev/docs/agents
