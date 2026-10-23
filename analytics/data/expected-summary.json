@@ -1,0 +1,13 @@
+{
+  "dataset_id": "missioncart-synthetic-v1",
+  "synthetic": true,
+  "seed": 20261023,
+  "missions": 600,
+  "events": 1800,
+  "successful_missions": 433,
+  "success_rate": 0.7216666666666667,
+  "total_cost_inr": 22519.589799999998,
+  "cost_per_attempt_inr": 37.532649666666664,
+  "cost_per_success_inr": 52.00829053117783,
+  "warning": "Fabricated fixture, not actual usage, tests, performance, market evidence or revenue. No treatment-effect claim."
+}
